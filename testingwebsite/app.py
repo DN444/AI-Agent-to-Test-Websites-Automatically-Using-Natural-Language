@@ -232,4 +232,4 @@ if __name__ == "__main__":
     # ensure DB exists
     with app.app_context():
         init_db()
-    app.run(debug=True)
+    app.run(debug=True,port=5001)
